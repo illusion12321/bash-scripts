@@ -34,5 +34,5 @@ echo "Autorimuovo script ..."
 
 rm new-htm-project.sh
 
-echo " OK ! Finito ! ! ! "
+echo "Finito!!! Ciao!"
 ls -l
