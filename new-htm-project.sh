@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Creo /assets ...."
+echo "Creo /assets ..."
 
 # creiamo la cartella assets
 mkdir assets
@@ -30,5 +30,6 @@ echo "Autorimuovo script ..."
 
 rm new-htm-project.sh
 
-echo "Finito!!!"
+echo "Finito!!! Ciao!"
+
 ls -l
