@@ -1,20 +1,34 @@
 #!/bin/bash
 
+echo "Creo /assets ...."
+
+# creiamo la cartella assets
 mkdir assets
+
+# creiamo css + standard files
 mkdir assets/css
-mkdir assets/image
-mkdir assets/js
+touch assets/css/.gitkeep # .gitkeep -> per evitare che git cancelli le cartelle
+
+# creiamo scss + standard files
 mkdir assets/scss
-
-touch assets/scss/style.scss
-touch assets/css/style.css
-touch index.html
-# per evitare che git cancelli le cartelle
-
-touch assets/image/.gitkeep
-touch assets/js/.gitkeep
-touch assets/css/.gitkeep
-touch assets/css/.gitkeep
 touch assets/scss/.gitkeep
+touch assets/scss/style.scss
 
-rm new-htm-project.sh 
+# creiamo js + standard files
+mkdir assets/js
+touch assets/js/.gitkeep
+
+# creiamo images + standard files
+mkdir assets/image
+touch assets/image/.gitkeep
+
+echo "Creo html ..."
+
+touch index.html
+
+echo "Autorimuovo script ..."
+
+rm new-htm-project.sh
+
+echo "Finito!!!"
+ls -l
